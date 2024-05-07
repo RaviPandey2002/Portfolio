@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/RaviPandey2002/Portfolio/static/css/main.49eda4e0.css",
+    "main.js": "/RaviPandey2002/Portfolio/static/js/main.03c37bb8.js",
+    "static/js/787.fb771931.chunk.js": "/RaviPandey2002/Portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/color-sharp.png": "/RaviPandey2002/Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/ExpenseManagerProfile.png": "/RaviPandey2002/Portfolio/static/media/ExpenseManagerProfile.ac6a4aee2ade32ac9972.png",
+    "static/media/color-sharp2.png": "/RaviPandey2002/Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/CodeXeroxProfile.png": "/RaviPandey2002/Portfolio/static/media/CodeXeroxProfile.a66fcf050a00f5330760.png",
+    "static/media/banner-bg.png": "/RaviPandey2002/Portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/RaviPandey2002/Portfolio/static/media/header-img.400baa4260daac98f2b2b1ccf08761c2.svg",
+    "static/media/CentraNo2-Bold.ttf": "/RaviPandey2002/Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/RaviPandey2002/Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/RaviPandey2002/Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/RaviPandey2002/Portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/RaviPandey2002/Portfolio/static/media/contact-img.62aa99e0f3b968b5d1ce9eb047f34fc7.svg",
+    "static/media/PortfolioLogo.png": "/RaviPandey2002/Portfolio/static/media/PortfolioLogo.9f1c080c1d2754cf0097.png",
+    "static/media/revicons.eot": "/RaviPandey2002/Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/RaviPandey2002/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/RaviPandey2002/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/RaviPandey2002/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/RaviPandey2002/Portfolio/index.html",
+    "main.49eda4e0.css.map": "/RaviPandey2002/Portfolio/static/css/main.49eda4e0.css.map",
+    "main.03c37bb8.js.map": "/RaviPandey2002/Portfolio/static/js/main.03c37bb8.js.map",
+    "787.fb771931.chunk.js.map": "/RaviPandey2002/Portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49eda4e0.css",
+    "static/js/main.03c37bb8.js"
+  ]
+}
