@@ -23,7 +23,7 @@ const MailButton = ({firstName,lastName,subject,phone,message})=>{
 `)
       }
     return (
-      <Mailto email="chauhanishita5356@gmail.com" body={body} subject={subject} obfuscate={true}>
+      <Mailto email="Ravi2001pandey@gmail.com" body={body} subject={subject} obfuscate={true}>
         <Button onClick={handleMail}>Send</Button>
       </Mailto>
     );

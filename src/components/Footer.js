@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/img/logo192.png";
+import logo from "../assets/img/PortfolioLogo.png";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -10,14 +10,14 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
          
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" style={{height:"20vh",width:"20vh",marginTop:"2%"}}/>
+          <Col size={10} sm={2}>
+            <img src={logo} alt="Logo" style={{height:"8vh",width:"8vh",marginTop:"2%"}}/>
           </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
+          <Col size={10} sm={10} className="text-center text-sm-end" style={{marginTop:"2%"}}>
           <div className="social-icon">
-                <a href="https://github.com/BornPsych"><GitHubIcon sx={{color:"white"}}/></a>
-                <a href="https://www.linkedin.com/in/yogesh-shahi/"><LinkedInIcon sx={{color:"white"}}/></a>
-                <a href="https://api.whatsapp.com/send?phone=8273583528&text=Happy%20to%20connect%20you"><WhatsAppIcon sx={{color:"white"}}/></a>
+                <a href="https://github.com/RaviPandey2002"><GitHubIcon sx={{color:"white"}}/></a>
+                <a href="https://www.linkedin.com/in/ravi-pandey-52a20b217/"><LinkedInIcon sx={{color:"white"}}/></a>
+                <a href="https://api.whatsapp.com/send?phone=9520243316&text=Happy%20to%20connect%20you"><WhatsAppIcon sx={{color:"white"}}/></a>
               </div>
             <p>Thank you for attention</p>
           </Col>

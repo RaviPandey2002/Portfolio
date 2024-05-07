@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo192.png';
+import logo from '../assets/img/PortfolioLogo.png';
 import { HashLink } from 'react-router-hash-link';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -54,14 +54,14 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-              <Nav.Link href="#achievements" className={activeLink === 'achievements' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('achievements')}>Achievements</Nav.Link>
-              <Nav.Link href="#experiences" className={activeLink === 'experiences' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experiences')}>Experiences</Nav.Link>
+              {/* <Nav.Link href="#achievements" className={activeLink === 'achievements' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('achievements')}>Achievements</Nav.Link>
+              <Nav.Link href="#experiences" className={activeLink === 'experiences' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experiences')}>Experiences</Nav.Link> */}
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://github.com/BornPsych"><GitHubIcon sx={{color:"white"}}/></a>
-                <a href="https://www.linkedin.com/in/yogesh-shahi/"><LinkedInIcon sx={{color:"white"}}/></a>
-                <a href="https://api.whatsapp.com/send?phone=8273583528&text=Happy%20to%20connect%20you"><WhatsAppIcon sx={{color:"white"}}/></a>
+                <a href="https://github.com/RaviPandey2002"><GitHubIcon sx={{color:"white"}}/></a>
+                <a href="https://www.linkedin.com/in/ravi-pandey-52a20b217/"><LinkedInIcon sx={{color:"white"}}/></a>
+                <a href="https://api.whatsapp.com/send?phone=9520243316&text=Happy%20to%20connect%20you"><WhatsAppIcon sx={{color:"white"}}/></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

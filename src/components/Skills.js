@@ -42,10 +42,6 @@ export const Skills = () => {
       meter: 80,
     },
     {
-      name: 'AWS (RDS, DynamoDB)',
-      meter: 70,
-    },
-    {
       name: 'React.js',
       meter: 85,
     },
@@ -65,14 +61,6 @@ export const Skills = () => {
       name: 'Github',
       meter: 90,
     },
-    {
-      name: 'Postman',
-      meter: 80,
-    },
-    {
-      name: 'AWS (Lambda, S3, VPC)',
-      meter: 70,
-    },
   ]
 
   return (
@@ -84,7 +72,7 @@ export const Skills = () => {
               <h2>About Skills</h2>
               <p>
                 I have learned different programming languages ​​so far and as
-                far as my skills are concerned<br></br>
+                far as my skills are concerned!!<br></br>
               </p>
               <Carousel
                 responsive={responsive}

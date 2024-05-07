@@ -1,14 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap'
 import { ProjectCard } from './ProjectCard'
-import portfolio1 from '../assets/img/portfolio1.png'
-import codeEditor from '../assets/img/codeEditor.png'
-import weatherApp from '../assets/img/weatherApp.png'
-import codeXerox from '../assets/img/codeXerox.png'
-import burgerBuilder from '../assets/img/burgerBuilder.png'
-import cureit from '../assets/img/cureit.png'
-import vegetableStore from '../assets/img/vegetable-store.png'
-import dashboard from '../assets/img/dashboard.png'
-import meme from '../assets/img/meme.png'
+import CodeXeroxImg from '../assets/img/CodeXeroxProfile.png'
+import  ExpenseManagerImg from '../assets/img/ExpenseManagerProfile.png'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
@@ -16,72 +9,20 @@ import TrackVisibility from 'react-on-screen'
 export const Projects = () => {
   const projects = [
     {
-      title: 'Portfolio website',
-      description:
-        'Beautiful portfolio Website made with pure HTML, CSS and JavaScript',
-      imgUrl: portfolio1,
-      projectLink: 'https://bornpsych.github.io/personal-website/',
-      githubLink: 'https://github.com/BornPsych/personal-website',
-    },
-    {
-      title: 'Code editor',
-      description:
-        'Used to write HTML, CSS and Javascript code and run simultaneously',
-      imgUrl: codeEditor,
-      projectLink: 'https://bornpsych.github.io/Online-Code-Editor/',
-      githubLink: 'https://github.com/BornPsych/Online-Code-Editor',
-    },
-    {
-      title: 'Weather App',
-      description: 'Made with HTML, CSS, Node, Express and REST API',
-      imgUrl: weatherApp,
-      projectLink: '',
-      githubLink: 'https://github.com/BornPsych/Weather.ly',
-    },
-    {
       title: 'Code Xerox',
       description:
-        'A collaborative code editor with live code sharing and video calling',
-      imgUrl: codeXerox,
+        'A collaborative code editor with live code sharing.',
+      imgUrl: CodeXeroxImg,
+      projectLink: 'https://code-xerox-i8fr.onrender.com/',
+      githubLink: 'https://github.com/RaviPandey2002/Code-Xerox',
+    },
+    {
+      title: 'Expense Management System',
+      description: 'Designed to streamline and organize your financial transactions effortlessly',
+      imgUrl: ExpenseManagerImg,
       projectLink: '',
-      githubLink: 'https://github.com/BornPsych/code-xerox-v1',
-    },
-    {
-      title: 'Burger builder',
-      description: 'A burger ordering website',
-      imgUrl: burgerBuilder,
-      projectLink: 'https://react-my-burger-d1fc3.web.app/',
-      githubLink: 'https://github.com/BornPsych/Burger-Bites',
-    },
-    {
-      title: 'Cure It',
-      description: 'A symptom Analyser that tells disease',
-      imgUrl: cureit,
-      projectLink: '',
-      githubLink: 'https://github.com/BornPsych/Cure-it',
-    },
-    {
-      title: 'FoodStore',
-      description: 'A full fledged vegetable store made with react',
-      imgUrl: vegetableStore,
-      projectLink: 'https://gilded-crostata-0ae08c.netlify.app/',
-      githubLink: 'https://github.com/BornPsych/foodstuffs_store-main',
-    },
-    {
-      title: 'Admin Dashboard',
-      description:
-        'A dashboard with sales, revenue, client etc information made with react ',
-      imgUrl: dashboard,
-      projectLink: 'https://harmonious-fox-66d801.netlify.app/',
-      githubLink: 'https://github.com/BornPsych/react-admin-dashboard',
-    },
-    {
-      title: 'Meme generator',
-      description: 'A meme generator App with react JS',
-      imgUrl: meme,
-      projectLink: 'https://moonlit-gumption-c931cb.netlify.app/',
-      githubLink: 'https://github.com/BornPsych/Meme-generator',
-    },
+      githubLink: 'https://github.com/RaviPandey2002/Expense-Management-System',
+    },    
   ]
 
   return (
